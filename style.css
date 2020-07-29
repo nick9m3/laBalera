@@ -1,0 +1,197 @@
+body{
+    display: flex ;
+    margin: 0px;
+    background-color: black;
+    justify-content: center;
+}
+.container{
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+}
+
+a{
+    color: white;
+    font-size: 1.3vw;
+}
+
+p{
+    text-align: center;
+}
+
+.box{
+    margin: 0px;
+    position: block;
+}
+
+.describe{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    width: 25vw;
+    margin: 2em;
+    font-size: 2vw;
+    color: white;
+}
+
+.img-back{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+.home{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-home{
+    cursor: pointer; 
+    border-radius: 1em; 
+    border: solid rgb(255, 255, 255) 0.15vw;
+    color:rgb(255, 255, 255);;
+    position: absolute;
+    top: 70%;
+    margin: -15px 0 0 -15px;
+    padding: 0.3em;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: black;
+    margin: 0px;
+    width: auto;
+}
+
+.car-body{
+    position: relative;
+}
+
+.car1{
+    position: absolute;
+    margin-top: 2em;
+    height: auto;
+    width: auto;
+}
+.car2{
+    position: absolute;
+    display: none;
+    margin-top: 2em;
+    height: auto;
+    width: auto;
+}
+
+.box-map{
+    margin: 2em;
+    display: flex;
+}
+
+.text-street{
+    justify-content: left;
+    text-align: center;
+    padding-right: 2em;
+    width:50%;
+}
+
+.mapp{
+    justify-content: right;
+    padding-left: 3em;
+    margin: 0;
+}
+
+.p-info{
+    font-size: 2vw;
+    color: white;
+    margin-top: 2em;
+}
+
+.social-links{
+    margin: 3em;
+}
+
+.fa{
+    color:white;
+    font-size: 2vw;
+    padding: 1em;
+}
+
+.card-header{
+    background-color: black;
+    border: none;
+}
+
+.card-body{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    height: 40em;
+    width: auto;
+}
+
+#desc{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    font-size: 2vw;
+}
+
+#covi{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    font-size: 2vw;
+}
+
+.card{
+    border: none;
+}
+
+
+
+.d-block{
+    width: 40em;
+    height: 35em;
+    float: left;
+    border-radius: 1em;
+}
+
+.img-text{
+    font-size: 2vw;
+    color: white;
+    padding: 3em;
+    padding-left: 22em;
+}
+
+.carousel-inner{
+    width: 100%;
+}
+
+.imma{
+    width: 50%;
+}
+
+.imma-txt{
+    width: 50%;
+    height: auto;
+    width: auto;
+    padding: 2em;
+}
+
+.cit{
+    font-style: italic;
+}
+iframe{
+    border-radius: 1em;
+    width: 30vw;
+    height: 25vw;
+}
